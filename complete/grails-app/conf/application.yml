@@ -16,9 +16,9 @@ grails:
             # Disabled by default for performance reasons
             events: false
         #tag::multiTenancy[]
-        multiTenancy:
-            mode: DISCRIMINATOR
-            tenantResolverClass: org.grails.datastore.mapping.multitenancy.web.SessionTenantResolver
+#        multiTenancy:
+#            mode: DISCRIMINATOR
+#            tenantResolverClass: org.grails.datastore.mapping.multitenancy.web.SessionTenantResolver
         #end::multiTenancy[]
 info:
     app:
